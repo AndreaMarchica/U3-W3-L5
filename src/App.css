@@ -232,3 +232,7 @@ ul {
 .card-text {
   width: 200px !important;
 }
+#main-container {
+  margin-bottom: 100px !important;
+  margin-top: 0 !important;
+}

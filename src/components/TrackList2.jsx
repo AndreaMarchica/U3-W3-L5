@@ -8,7 +8,7 @@ const TrackList = ({ tracks, changeTrack, trackSelected }) => {
     <Row className="">
       {Array.isArray(tracksToShow) && tracksToShow.length > 0 ? (
         tracksToShow.map((track) => (
-          <Col className="col col-3 " key={track.id}>
+          <Col className="col col-3" key={track.id}>
             <Track
               track={track}
               changeTrack={changeTrack}
